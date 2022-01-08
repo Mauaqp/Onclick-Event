@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.btn{
+    padding: 4px 8px;
+    margin: 4px 8px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px black;
+    cursor: pointer;
+}
+.color-1{
+    color: white;
+    background-color: rgb(43, 120, 228);
+}
+.color-2{
+    color: black;
+    background-color: rgb(255, 217, 102);
+}
+.color-3{
+    color: black;
+    background-color: rgb(147, 196, 125);
+}
+.cursiva{
+    font-style: italic;
+}
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb( 193, 193, 193);
+}
+
+.navbar-elements{
+    padding: 5px 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    margin-left: 30px;
+    font-size: 2rem;
+}
+.main{
+    width: 80%;
+    display: flex;
+    margin: 10px auto;
+}
+.col1{
+    flex: 2;
+}
+.col2{
+    flex: 1;
+}
+.card{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 3px solid gray;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+}
+.likebtn{
+    list-style-type: none;
+    width: 150px;
+    margin: 5px 10px;
+    padding: 5px;
+    text-align: center;
+}
+.adds{
+    margin: 0px;
+    padding: 10px;
+    border: 3px solid gray;
+}
+.addbtn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}

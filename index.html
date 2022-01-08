@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- font family: Balsamiq Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-elements">
+            <li><h1 class="title">Dojonary</h1></li>
+            <li><input type="search" placeholder="Search"></li>
+            <li><a href="#"><button onclick="cambiar(this)" class="btn color-1">Login</button></a></li>            
+        </ul>
+    </nav>
+    <main class="main">
+        <div class="col1">
+            <div class="card">
+                <div class="like-side">
+                    <ul class="likebtn">
+                        <li><h2>Ninja</h2></li>
+                        <li class="cursiva">noun</li>
+                        <li>Plural: <span class="cursiva">ninjas</span></li>
+                        <li><a href="#"><button onclick="alert('Ninja was liked'); likes1(this)" class="btn color-2">13 likes</button></a></li>
+                    </ul>
+                </div>
+                <div class="text-side"><p>A partitioner skilled in the <a href="#">Japanese</a>  art of  <a href="#"> ninjutsu</a></p></div>
+            </div>
+            <div class="card">
+                <div class="like-side">
+                    <ul class="likebtn">
+                        <li><h2>Ninja</h2></li>
+                        <li class="cursiva">noun</li>
+                        <li>Plural: <span class="cursiva">ninjas</span></li>
+                        <li><a href="#"><button onclick="alert('Ninja was liked'); likes2(this)" class="btn color-2">37 likes</button></a></li>
+                    </ul>
+                </div>
+                <div class="text-side"><p>A <a href="#">programer</a> who breaks down problems with <a href="#">zen</a>-like focus</p></div>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="adds">
+                <div class="add-text">Dojonary is defined by YOU</div>
+                <div class="addbtn"><a href="#"><button onclick="eliminar(this)" class="btn color-3">Add Definition</button></a></div>
+            </div>
+        </div>
+    </main>
+    <!-- JS -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
